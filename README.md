@@ -1,24 +1,20 @@
 # Minitest::Notification
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'minitest-notification'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install minitest-notification
+Test notifier for minitest via OSX Notification Center.
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'minitest/autorun'
+    require 'minitest/notification'
+
+## Installation
+
+   gem install minitest-notification 
+
+## Dependencies
+
+- minitest
+- terminal-notifier-guard
 
 ## Contributing
 
