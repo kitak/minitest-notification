@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["kei.kita2501@gmail.com"]
   gem.description   = %q{Test notifier for minitest via OSX Notification Center}
   gem.summary       = %q{Display graphical notifications when testing with minitest.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/kitak/minitest-notification"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
