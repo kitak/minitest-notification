@@ -28,6 +28,10 @@ module Minitest
         @io.puts(*o)
       end
     end
+
+    def method_missing(msg, *args, &block)
+      @io.send(msg, *args, &block)
+    end
   end
 end
 

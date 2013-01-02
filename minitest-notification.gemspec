@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Minitest::Notification::VERSION
   gem.authors       = ["Keisuke KITA"]
   gem.email         = ["kei.kita2501@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Test notifier for minitest via OSX Notification Center}
+  gem.summary       = %q{Display graphical notifications when testing with minitest.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
