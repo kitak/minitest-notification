@@ -1,5 +1,5 @@
 module MiniTest
-  module Notification
+  class Notification
     VERSION = "0.0.2"
   end
 end
