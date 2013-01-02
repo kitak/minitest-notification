@@ -1,7 +1,7 @@
 require "minitest-notification/version"
 require "terminal-notifier-guard"
 
-module Minitest
+module MiniTest
   # Test notifier for minitest via notification center.
   #
   # == Usage

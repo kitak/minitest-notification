@@ -5,7 +5,7 @@ require 'minitest-notification/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "minitest-notification"
-  gem.version       = Minitest::Notification::VERSION
+  gem.version       = MiniTest::Notification::VERSION
   gem.authors       = ["Keisuke KITA"]
   gem.email         = ["kei.kita2501@gmail.com"]
   gem.description   = %q{Test notifier for minitest via OSX Notification Center}
