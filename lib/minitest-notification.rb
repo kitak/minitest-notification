@@ -1,7 +1,6 @@
 require "minitest-notification/version"
 
 module Minitest
-  module Notification
-    # Your code goes here...
+  class Notification
   end
 end
