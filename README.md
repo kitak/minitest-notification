@@ -1,4 +1,4 @@
-# Minitest::Notification
+# MiniTest::Notification
 
 Test notifier for minitest via OSX Notification Center.
 
